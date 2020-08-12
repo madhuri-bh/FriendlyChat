@@ -19,6 +19,7 @@ android {
         versionCode 1
         versionName "1.0"
         resConfigs "en"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -50,5 +51,12 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
     //Firebase Storage
     implementation 'com.google.firebase:firebase-storage:19.1.1'
+    //Firebase Notification
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    //Firebase remote config
+    implementation 'com.google.firebase:firebase-config:19.2.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
 
 }
